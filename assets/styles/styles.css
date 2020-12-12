@@ -1,0 +1,78 @@
+body {
+    background-color: lightsteelblue;
+}
+h1 {
+    color: darkcyan;
+    margin-left: 15px;
+}
+h2 {
+    color: darkcyan;
+    margin-left: 15px;
+}
+h3 {
+    color: darkcyan;
+    text-align: center;
+}
+h4 {
+    font-size: medium;
+}
+td {
+    font-size: small;
+}
+.div-one {
+    padding: 10px;
+}
+.container {
+    padding: 30px 10px 10px;
+}
+.image-details {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+.image-thumbs {
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-border {
+    border: 2px solid cadetblue;
+    height: 150px;
+    width: 150px;
+}
+
+.container-viz {
+    align-items: center;
+}
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+}
+
+.image-compare {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 400px;
+}
+.navbar-light .navbar-brand {
+    color: white;
+    background-color: darkcyan;
+}
+.myfooter {
+    font-size: x-small;
+    bottom: 0;
+}
+@media (max-width: 600px) {
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+        color: white;
+        background-color: darkcyan !important;
+    }
+}
