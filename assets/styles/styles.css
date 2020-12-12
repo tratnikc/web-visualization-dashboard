@@ -53,6 +53,8 @@ td {
     margin-right: auto;
     height: 400px;
     width: 500px;
+    max-width: 100%;
+    max-height: auto;
 }
 
 .image-compare {
@@ -70,6 +72,7 @@ td {
     font-size: x-small;
     bottom: 0;
 }
+
 @media (max-width: 600px) {
     nav.navbar.navbar-expand-lg.navbar-light.bg-light {
         color: white;
